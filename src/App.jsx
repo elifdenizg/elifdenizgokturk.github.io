@@ -1,3 +1,7 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+
+const me = <img src=""/>
 
 function App() {
   return (
@@ -5,9 +9,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home/ >}/>
-          <Route index element={<AboutMe/ >}/>
-          <Route index element={<Contact/ >}/>
-          <Route index element={<Projects/ >}/>
         </Routes>
       </BrowserRouter>
     </>
