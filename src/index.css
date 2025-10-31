@@ -3,23 +3,28 @@
 
 :root {
   font-family: "Poppins";
-  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #131313;
-
-/*   font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
+.hover_card{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.group:hover .hover_card {
+  transform: scale(1);
+}
+.group:hover a{
+  color:#131313
 }

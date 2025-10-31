@@ -2,15 +2,15 @@
 
 function HomeCard({title,url}){
     return(
-        <div className="text-3xl font-bold p-20 border-2 border-white w-fit h-full">
+        <div className="group relative text-3xl font-bold border-2 border-white justify-center text-center content-center px-[5vw] py-[25vh]">
+            <div class="hover_card"></div>
             <a 
                 href={url} 
                 className="
                 text-white
                 visited: text-white
-                hover:text-yellow-400
-            "
-            >
+                hover: text-black
+            ">
                 {title}
             </a>
         </div>
