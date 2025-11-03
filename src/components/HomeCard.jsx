@@ -2,17 +2,9 @@
 
 function HomeCard({title,url}){
     return(
-        <div className="group relative text-3xl font-bold border-2 border-white justify-center text-center content-center px-[5vw] py-[25vh]">
-            <div class="hover_card"></div>
-            <a 
-                href={url} 
-                className="
-                text-white
-                visited: text-white
-                hover: text-black
-            ">
-                {title}
-            </a>
+        <div className="relative group text-5xl font-bold border-2 border-white text-center flex justify-center items-center px-[5vw] py-[25vh]
+        transition-all duration-300 hover:bg-neutral-200 text-black cursor-pointer">
+            <a href={url} class="relative inset-0 flex items-center justify-center text-white group-hover:text-black">{title}</a>
         </div>
     );
 }
