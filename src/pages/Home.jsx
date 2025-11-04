@@ -1,6 +1,5 @@
 import HomeCard from "../components/HomeCard";
 import Me from "../assets/me.png";
-import StarBg from "../components/StarBackround";
 
 const Home = () => {
   return (
@@ -20,9 +19,9 @@ const Home = () => {
           </p>
         </div>
         <div className="relative flex gap-4 mt-4 z-0">
-          <HomeCard title="ABOUT ME" url="./AboutMe" />
-          <HomeCard title="PROJECTS" url="./Projects" />
-          <HomeCard title="CONTACT" url="./Contact" />
+          <HomeCard title="ABOUT ME" url="/AboutMe" />
+          <HomeCard title="PROJECTS" url="/Projects" />
+          <HomeCard title="CONTACT" url="/Contact" />
         </div>
       </div>
 
