@@ -1,8 +1,7 @@
-const Contact = () => {
-  return (
-    <>
-    </>
-  )
-}
+import Navigation from "../components/Navigation";
 
-export default Contact
+const Contact = () => {
+  return <div>{Navigation()}</div>;
+};
+
+export default Contact;
