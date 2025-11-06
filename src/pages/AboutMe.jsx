@@ -4,13 +4,12 @@ import Mugla from "../assets/mugla.png";
 import Strasbourg from "../assets/strasbourg.png";
 import Table from "../assets/table.png";
 import Me2 from "../assets/me3.png";
+import Navigation from "../components/Navigation";
 
 const AboutMe = () => {
   return (
     <div className="flex flex-col text-white ">
-      <h1 className="text-7xl font-black mb-6 my-10 mx-15">
-        Elif Deniz Göktürk
-      </h1>
+      {Navigation()}
       <div className="flex gap-10 h-screen justify-center gap-10 mx-[16vw]">
         <img src={Me} className="h-[55vh] w-auto" />
         <div className="flex flex-col h-[55vh] w-1/3 justify-center">

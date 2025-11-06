@@ -1,6 +1,6 @@
 //Les petits carrés de home page
 
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 function HomeCard({title,url}){
     const navigate = useNavigate();
