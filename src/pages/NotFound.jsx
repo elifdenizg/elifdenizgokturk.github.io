@@ -1,6 +1,7 @@
 const NotFound = () => {
   return (
     <>
+    NOT FOUND
     </>
   )
 }
