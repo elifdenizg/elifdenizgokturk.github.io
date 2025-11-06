@@ -11,7 +11,7 @@ const AboutMe = () => {
       </h1>
       <div className="flex gap-10 h-screen justify-center gap-10 mx-[16vw]">
         <img src={Me} className="h-[55vh] w-auto" />
-        <div className="flex flex-col h-[55vh] w-1/3 content-center">
+        <div className="flex flex-col h-[55vh] w-1/3 justify-center">
           <h2 className="text-5xl my-5">À Propos</h2>
           <p className="text-lg z-20">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -22,16 +22,28 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex">
-          <div className="w-1/3 justify-self-center"><b>Mugla</b></div>
-          <div className="w-1/3 justify-self-center"><b>Istanbul</b></div>
-          <div className="w-1/3 justify-self-center"><b>Strasbourg</b></div>
-      </div>
-      <div className="flex">
-        <img src={Mugla} className="w-1/3" />
-        <img src={Istanbul} className="w-1/3" />
-        <img src={Strasbourg} className="w-1/3" />
-      </div>
+        <p className="text-lg z-20 m-7 flex text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center w-1/3">
+            <b className="text-lg mt-2">Mugla</b>
+            <img src={Mugla} className="w-full" />
+          </div>
+
+          <div className="flex flex-col items-center w-1/3">
+            <b className="text-lg mt-2">Istanbul</b>
+            <img src={Istanbul} className="w-full" />
+          </div>
+
+          <div className="flex flex-col items-center w-1/3">
+            <b className="text-lg mt-2">Strasbourg</b>
+            <img src={Strasbourg} className="w-full" />
+          </div>
+        </div>
       </div>
     </div>
   );
