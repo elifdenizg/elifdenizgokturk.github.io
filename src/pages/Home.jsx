@@ -19,8 +19,8 @@ const Home = () => {
           </p>
         </div>
         <div className="relative flex gap-4 mt-4 z-0">
-          <HomeCard title="ABOUT ME" url="/AboutMe" />
-          <HomeCard title="PROJECTS" url="/Projects" />
+          <HomeCard title="À PROPOS" url="/AboutMe" />
+          <HomeCard title="PROJETS" url="/Projects" />
           <HomeCard title="CONTACT" url="/Contact" />
         </div>
       </div>
