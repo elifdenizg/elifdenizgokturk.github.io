@@ -1,16 +1,16 @@
-import Me from "../assets/meAP.jpg";
-import Istanbul from "../assets/istanbul.png";
-import Mugla from "../assets/mugla.png";
-import Strasbourg from "../assets/strasbourg.png";
-import Table from "../assets/table.png";
-import Me2 from "../assets/me3.png";
+import Me from "../assets/AboutMe/meAP.jpg";
+import Istanbul from "../assets/AboutMe/istanbul.png";
+import Mugla from "../assets/AboutMe/mugla.png";
+import Strasbourg from "../assets/AboutMe/strasbourg.png";
+import Table from "../assets/AboutMe/table.png";
+import Me2 from "../assets/AboutMe/me3.png";
 import Navigation from "../components/Navigation";
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col text-white ">
+    <div className="flex flex-col text-white">
       {Navigation()}
-      <div className="flex gap-10 h-screen justify-center gap-10 mx-[16vw]">
+      <div className="flex h-screen justify-center gap-10 mx-[16vw]">
         <img src={Me} className="h-[55vh] w-auto" />
         <div className="flex flex-col h-[55vh] w-1/3 justify-center">
           <h2 className="text-5xl my-5">À Propos</h2>
