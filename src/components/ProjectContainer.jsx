@@ -1,14 +1,9 @@
-import { useNavigate } from "react-router-dom";
 
-function ProjectContainer(urlImg, urlProject, description) {
-  const navigate = useNavigate();
+function ProjectContainer({urlImg, urlProject, description }) {
   return (
-    <div
-      className="flex h-screen justify-center gap-10 mx-[16vw]"
-      onClick={() => navigate(urlProject)}
-    >
-      <img src={urlImg} className="h-[55vh] w-auto" />
-      <p className="text-lg flex flex-col h-[55vh] w-1/3 justify-center">
+    <div className="flex justify-center content-center gap-10 mx-[16vw] cursor-pointer border-1 p-3" onClick={() => window.location.replace(urlProject)}>
+      <img src={urlImg} className="w-1/2"/>
+      <p className="text-lg flex flex-col w-1/2 justify-center">
         {description}
       </p>
     </div>
