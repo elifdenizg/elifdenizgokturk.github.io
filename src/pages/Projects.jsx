@@ -14,26 +14,29 @@ const Projects = () => {
 
 
   return (
-    <div className="flex flex-col gap-10 text-white">
+    <div className="flex flex-col text-white">
       {Navigation()}
-      <h2 className="text-5xl font-bold flex justify-center">Projets</h2>
-      <ProjectContainer
-        urlImg={pic}
-        urlProject="https://github.com/Thibolognaize/Job-board"
-        description={ClarternanceDescription}
-      />
+      <div className="flex flex-col gap-10">
+      <h2 className="text-5xl font-bold mx-[16vw]">Projets</h2>
+        <ProjectContainer
+          urlImg={pic}
+          urlProject="https://github.com/Thibolognaize/Job-board"
+          description={ClarternanceDescription}
+        />
 
-      <ProjectContainer
-        urlImg={pic}
-        urlProject="https://github.com/Thibolognaize/Job-board"
-        description={PortfolioDescription}
-      />
+        <ProjectContainer
+          urlImg={pic}
+          urlProject="https://github.com/Thibolognaize/Job-board"
+          description={PortfolioDescription}
+        />
 
-      <ProjectContainer
-        urlImg={pic}
-        urlProject="https://github.com/Thibolognaize/Job-board"
-        description={HangmanDescription}
-      />
+        <ProjectContainer
+          urlImg={pic}
+          urlProject="https://github.com/Thibolognaize/Job-board"
+          description={HangmanDescription}
+        />
+
+      </div>
     </div>
   );
 };
