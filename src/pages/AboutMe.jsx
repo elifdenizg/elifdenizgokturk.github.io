@@ -13,7 +13,7 @@ const AboutMe = () => {
       <div className="flex h-screen justify-center gap-10 mx-[16vw]">
         <img src={Me} className="h-[55vh] w-auto" />
         <div className="flex flex-col h-[55vh] w-1/3 justify-center">
-          <h2 className="text-5xl my-5">À Propos</h2>
+          <h2 className="text-5xl font-bold my-5">À Propos</h2>
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

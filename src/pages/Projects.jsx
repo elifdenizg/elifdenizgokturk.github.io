@@ -16,7 +16,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col gap-10 text-white">
       {Navigation()}
-      <h2 className="text-5xl flex justify-center">Projets</h2>
+      <h2 className="text-5xl font-bold flex justify-center">Projets</h2>
       <ProjectContainer
         urlImg={pic}
         urlProject="https://github.com/Thibolognaize/Job-board"
