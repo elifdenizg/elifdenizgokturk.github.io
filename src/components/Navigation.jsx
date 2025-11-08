@@ -32,7 +32,7 @@ function Navigation() {
           className="cursor-pointer"
           onClick={() => navigate("/Contact")}
         >
-          Contact
+          Contact Info
         </button>
       </div>
     </div>
