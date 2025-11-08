@@ -23,7 +23,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <p className="text-lg m-7 flex text-center">
+      <p className="text-lg mb-20 mx-[16vw] flex text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

@@ -3,7 +3,7 @@ import Me from "../assets/me.png";
 
 const Home = () => {
   return (
-    <div className="flex justify-start min-h-screen text-white px-16 py-10 max-w-screen ">
+    <div className="flex min-h-screen text-white  my-10 max-w-screen ">
       <div className="flex flex-col gap-10 max-w mx-[16vw]">
         <div>
           <h1 className="text-7xl font-black mb-6">
@@ -28,7 +28,7 @@ const Home = () => {
       <img 
         src={Me}
         alt="Elif Deniz Göktürk"
-        className="absolute bottom-0 left-0 pt-5 h-[85vh] z-10"
+        className="absolute bottom-0 left-0 pt-5 h-[80vh] z-10"
       />
     </div>
   );

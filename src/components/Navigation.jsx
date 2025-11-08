@@ -1,18 +1,16 @@
-//Les petits carrés de home page
-
 import { useNavigate } from "react-router-dom";
 
 function Navigation() {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-row items-center justify-between my-10 gap-20">
+    <div className="flex items-center my-10 gap-20 mx-[16vw]">
       <h1
-        className="text-7xl font-black mb-6 my-10 ml-20 cursor-pointer"
+        className="text-7xl font-black cursor-pointer"
         onClick={() => navigate("/")}
       >
         Elif Deniz Göktürk
       </h1>
-      <div className="text-3xl font-bold flex justify-end gap-20 mr-20">
+      <div className="text-3xl font-bold flex gap-10">
         <button
           type="button"
           className="cursor-pointer"
