@@ -1,45 +1,61 @@
 import ProjectContainer from "../components/ProjectContainer";
 import pic from "../assets/AboutMe/istanbul.png";
+import Clarternance from "../assets/Projects/Clarternance.png";
+import Portfolio from "../assets/Projects/Portfolio.png";
 import Navigation from "../components/Navigation";
 
+const ClarternanceDescription = (
+  <p>
+    Clarternance est une plateforme de Job Board développée avec
+    <b> Express.js</b>, utilisant <b>EJS</b> comme moteur de vues et
+    <b> PostgreSQL</b> pour la gestion des données. L’interface est responsive
+    grâce à <b>Bootstrap 5</b>.
+  </p>
+);
+
+const PortfolioDescription = (
+  <p>
+    Mon portfolio est une site web moderne développée avec <b>React</b>,
+    utilisant <b>JSX</b> pour la structure des composants et <b>Tailwind CSS</b>{" "}
+    pour la mise en forme et le design responsive. L’objectif est de présenter
+    mes projets et mon parcours de manière claire, fluide et esthétique.
+  </p>
+);
+const HangmanDescription = <p></p>;
+
+const DevinetteDescription = <p></p>;
+
+const JeuJavaDescription = <p></p>;
+
 const Projects = () => {
-  const ClarternanceDescription =
-    "Clarternance est une plateforme de Job Board (tableau d’offres d’emploi) développée avec Express.js, utilisant EJS comme moteur de vues pour générer des pages dynamiques et PostgreSQL pour la gestion des données. L’interface est responsive grâce à Bootstrap 5.";
-
-  const PortfolioDescription =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.";
-
-  const HangmanDescription =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.";
-
-  const DevinetteDescription =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.";
-
   return (
     <div className="flex flex-col text-white">
       {Navigation()}
       <div className="flex flex-col gap-10">
         <div className="mx-[16vw]">
           <h2 className="text-5xl font-bold mb-4">Projets</h2>
-          <p className="text-lg">Liste des projets réalisés par moi meme. 
-          les languages utilisés sont notés en dessous de titre des projets. Les tech sont en bold dans les description. <br />
-          Apres la presentation des projets il y a une recap de mes skills et les tech que je sais utiliser
+          <p className="text-lg">
+            Voici un aperçu des projets que j'ai développée. Sous chaque titre,
+            vous trouverez les <b>langages</b> utilisés.
+            <b> Les technologies clés</b> sont mises en <b>gras</b> dans les
+            descriptions afin de mettre en avant les outils et frameworks qui
+            ont façonné chaque réalisation.
           </p>
         </div>
 
         <ProjectContainer
-          urlImg={pic}
+          urlImg={Clarternance}
           urlProject="https://github.com/Thibolognaize/Job-board"
           title="Clarternance"
-          skills="EJS / JavaScript / HTML / CSS"
+          skills="Bootstrap / Express / Postgresql"
           description={ClarternanceDescription}
         />
 
         <ProjectContainer
-          urlImg={pic}
+          urlImg={Portfolio}
           urlProject="https://github.com/Thibolognaize/Job-board"
-          title="Clarternance"
-          skills="Bootstrap / Express / Postgresql"
+          title="Portfolio"
+          skills="JavaScript / CSS / HTML"
           description={ClarternanceDescription}
         />
 
