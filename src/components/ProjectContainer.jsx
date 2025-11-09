@@ -4,7 +4,7 @@ function ProjectContainer({ urlImg, urlProject, title, skills, description }) {
       className="flex justify-center content-center gap-10 mx-[16vw] bg-white/75 p-10 cursor-pointer hover:bg-white"
       onClick={() => window.location.replace(urlProject)}
     >
-      <img src={urlImg} className="w-1/2 border-1 " />
+      <img src={urlImg} className=" max-h-80 border-1" />
       <div className=" flex flex-col w-1/2 justify-center">
         <div className="my-2">
           <h3 className="font-semibold text-[#131313] text-2xl">{title}</h3>
