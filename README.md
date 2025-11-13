@@ -1,6 +1,6 @@
 # Portfolio Personnel
 
-Lien pour acceder au site : https://symphonious-crepe-89e9a7.netlify.app/
+Lien pour acceder au site : https://edg-portfolio.netlify.app/
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
