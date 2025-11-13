@@ -15,15 +15,12 @@ const Home = () => {
               CV
             </a>
             •
-            <a
-              href="https://drive.proton.me/urls/0YAXYSA82M#CsVYFWWkfDlN"
-              className="underline"
-            >
+            <a href="https://github.com/elifdenizg" className="underline">
               Github
             </a>
             •
             <a
-              href="https://drive.proton.me/urls/0YAXYSA82M#CsVYFWWkfDlN"
+              href="https://www.linkedin.com/in/edgokturk/"
               className="underline"
             >
               Linkedin
